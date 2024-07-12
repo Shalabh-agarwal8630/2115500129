@@ -1,47 +1,47 @@
 {
-  "fe3b3885-452a-403c-a365-3aaf0779c709": {
-    "productName": "Laptop 5",
-    "price": 7980,
-    "rating": 1.07,
-    "discount": 89,
+  "778f7962-7dd5-4036-ae8d-0e07f0f62cad": {
+    "productName": "Laptop 1",
+    "price": 8521,
+    "rating": 2.32,
+    "discount": 91,
     "availability": "out-of-stock",
-    "id": "fe3b3885-452a-403c-a365-3aaf0779c709",
+    "id": "778f7962-7dd5-4036-ae8d-0e07f0f62cad",
     "company": "AMZ"
   },
-  "ddaeaddc-2851-426b-b920-2c8d157945dd": {
-    "productName": "Laptop 8",
-    "price": 6402,
-    "rating": 2.24,
-    "discount": 99,
-    "availability": "yes",
-    "id": "ddaeaddc-2851-426b-b920-2c8d157945dd",
+  "8e9879e1-54b9-4638-bea3-5edcf7c8ef2f": {
+    "productName": "Laptop 2",
+    "price": 1582,
+    "rating": 2.32,
+    "discount": 39,
+    "availability": "out-of-stock",
+    "id": "8e9879e1-54b9-4638-bea3-5edcf7c8ef2f",
     "company": "FLP"
   },
-  "62fcb140-88a7-44c4-9ebe-62618eaaaab5": {
-    "productName": "Laptop 15",
-    "price": 4400,
-    "rating": 2.71,
-    "discount": 50,
+  "d91ebda4-90ce-45ae-9fff-560e2cfa77b5": {
+    "productName": "Laptop 6",
+    "price": 6590,
+    "rating": 3.01,
+    "discount": 72,
     "availability": "yes",
-    "id": "62fcb140-88a7-44c4-9ebe-62618eaaaab5",
+    "id": "d91ebda4-90ce-45ae-9fff-560e2cfa77b5",
     "company": "SNP"
   },
-  "c7c74c5e-2f4a-44d8-beb7-b088a6d012fd": {
-    "productName": "Laptop 13",
-    "price": 7756,
-    "rating": 1.37,
-    "discount": 79,
+  "b067cbe9-b78a-45ef-9a75-2ecf7b451cae": {
+    "productName": "Laptop 11",
+    "price": 1389,
+    "rating": 1.43,
+    "discount": 10,
     "availability": "yes",
-    "id": "c7c74c5e-2f4a-44d8-beb7-b088a6d012fd",
+    "id": "b067cbe9-b78a-45ef-9a75-2ecf7b451cae",
     "company": "MYN"
   },
-  "fa1b1909-ecb9-41ba-b405-165c31d45b19": {
-    "productName": "Laptop 7",
-    "price": 399,
-    "rating": 1.5,
-    "discount": 74,
+  "9dcecb39-5a93-4446-8c45-9eb94c90dc26": {
+    "productName": "Laptop 13",
+    "price": 8889,
+    "rating": 1.58,
+    "discount": 7,
     "availability": "yes",
-    "id": "fa1b1909-ecb9-41ba-b405-165c31d45b19",
+    "id": "9dcecb39-5a93-4446-8c45-9eb94c90dc26",
     "company": "AZO"
   }
 }

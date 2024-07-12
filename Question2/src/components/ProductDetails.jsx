@@ -1,4 +1,3 @@
-// ProductDetailPage.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -12,8 +11,8 @@ const ProductDetailPage = ({ products }) => {
 
   return (
     <div className="p-4 bg-gray-900 text-white min-h-screen">
-      <h1 className="text-3xl font-bold mb-6">{product.productName}</h1>
-      <div className="border border-gray-700 p-6 rounded-lg shadow-md bg-gray-800">
+      <h1 className="text-4xl font-bold mb-8 text-center">{product.productName}</h1>
+      <div className="border border-gray-700 p-6 rounded-lg shadow-xl bg-gray-800">
         <p className="mb-4"><span className="font-bold text-gray-400">Company:</span> <span className="text-lg">{product.company}</span></p>
         <p className="mb-4"><span className="font-bold text-gray-400">Price:</span> <span className="text-lg">${product.price}</span></p>
         <p className="mb-4"><span className="font-bold text-gray-400">Rating:</span> <span className="text-lg">{product.rating}</span></p>
