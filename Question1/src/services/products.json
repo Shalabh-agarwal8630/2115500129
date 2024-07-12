@@ -1,0 +1,47 @@
+{
+  "fe3b3885-452a-403c-a365-3aaf0779c709": {
+    "productName": "Laptop 5",
+    "price": 7980,
+    "rating": 1.07,
+    "discount": 89,
+    "availability": "out-of-stock",
+    "id": "fe3b3885-452a-403c-a365-3aaf0779c709",
+    "company": "AMZ"
+  },
+  "ddaeaddc-2851-426b-b920-2c8d157945dd": {
+    "productName": "Laptop 8",
+    "price": 6402,
+    "rating": 2.24,
+    "discount": 99,
+    "availability": "yes",
+    "id": "ddaeaddc-2851-426b-b920-2c8d157945dd",
+    "company": "FLP"
+  },
+  "62fcb140-88a7-44c4-9ebe-62618eaaaab5": {
+    "productName": "Laptop 15",
+    "price": 4400,
+    "rating": 2.71,
+    "discount": 50,
+    "availability": "yes",
+    "id": "62fcb140-88a7-44c4-9ebe-62618eaaaab5",
+    "company": "SNP"
+  },
+  "c7c74c5e-2f4a-44d8-beb7-b088a6d012fd": {
+    "productName": "Laptop 13",
+    "price": 7756,
+    "rating": 1.37,
+    "discount": 79,
+    "availability": "yes",
+    "id": "c7c74c5e-2f4a-44d8-beb7-b088a6d012fd",
+    "company": "MYN"
+  },
+  "fa1b1909-ecb9-41ba-b405-165c31d45b19": {
+    "productName": "Laptop 7",
+    "price": 399,
+    "rating": 1.5,
+    "discount": 74,
+    "availability": "yes",
+    "id": "fa1b1909-ecb9-41ba-b405-165c31d45b19",
+    "company": "AZO"
+  }
+}
