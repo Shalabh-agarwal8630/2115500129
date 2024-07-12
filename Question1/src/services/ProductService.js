@@ -5,7 +5,6 @@ const fetchProducts = async (categoryname, top = 10, minPrice = "1", maxPrice = 
   const companies = ['AMZ', 'FLP', 'SNP', 'MYN', 'AZO'];
   const allProducts = [];
 
-  // Fetch products for each company
   for (const company of companies) {
     console.log(top);
     const url = `http://20.244.56.144/test/companies/${company}/categories/${categoryname}/products?top=${top}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
@@ -15,7 +14,6 @@ const fetchProducts = async (categoryname, top = 10, minPrice = "1", maxPrice = 
       }
     });
     console.log(response.data);
-    // Push up to `top` number of products into allProducts
     allProducts.push(...response.data.slice(0, top).map((product) => ({
       ...product,
       id: uuidv4(),
@@ -23,7 +21,7 @@ const fetchProducts = async (categoryname, top = 10, minPrice = "1", maxPrice = 
     })));
   }
 
-  // Sort products
+  
   allProducts.sort((a, b) => {
     if (order === 'asc') {
       return a[sort] - b[sort];
@@ -32,17 +30,14 @@ const fetchProducts = async (categoryname, top = 10, minPrice = "1", maxPrice = 
     }
   });
 
-  // Pagination logic based on top value
-  const pageSize = 10; // Fixed page size of 10 products per page
+  const pageSize = 10; 
   const totalProducts = allProducts.length;
   console.log(totalProducts);
   const totalPages = Math.ceil(totalProducts / pageSize);
 
-  // Determine the correct page of products to return based on top and page parameters
   let startIndex = (page - 1) * pageSize;
   let endIndex = startIndex + pageSize;
 
-  // Adjust endIndex if top is less than pageSize or if we're on the last page with fewer products
   if (top <= pageSize || startIndex + pageSize > top) {
     endIndex = Math.min(startIndex + pageSize, top);
   }
